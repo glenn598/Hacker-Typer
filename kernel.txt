@@ -1,531 +1,66 @@
-struct group_info init_groups = { .usage = ATOMIC_INIT(2) };
 
-struct group_info *groups_alloc(int gidsetsize){
 
-	struct group_info *group_info;
 
-	int nblocks;
 
-	int i;
 
+The Royal Canadian Mounted Police (RCMP) (French: Gendarmerie royale du Canada (GRC), literally ‘Royal Gendarmerie of Canada'; colloquially known as The Mounties, and internally as ‘The Force') is both a federal and a national police force of Canada, and one of the most recognized of its kind in the world. It is unique in the world as a national, federal, provincial and municipal policing body. The RCMP providespolicing services to all of Canada at a federal level, and also on a contract basis to the three territories, eight of Canada's provinces (the RCMP does not provide provincial or municipal policing in either Ontario or Quebec), more than 190 municipalities, 184 aboriginal communities, and three international airports.[6] The RCMP was formed in 1920 by the merger of the Royal Northwest Mounted Police (RNWMP, founded 1873) with the Dominion Police(founded 1868). The former was originally named the North-West Mounted Police (NWMP), and was given the Royal prefix by King Edward VIIin 1904. Much of the present-day organization's symbolism has been inherited from its days as the NWMP, including the distinctive Red Sergeuniform, paramilitary heritage, and mythos as a frontier force. The RCMP/GRC wording is specifically protected under the Trade-marks Act.[7]
+
+ 
+RCMP in everyday uniform
+As the national police force of Canada, the Royal Canadian Mounted Police is primarily responsible for enforcing federal laws throughout Canada, while general law and order including the enforcement of theCriminal Code and applicable provincial legislation is constitutionally the responsibility of the provinces and territories. This responsibility is sometimes further delegated to municipalities which can form their own municipal police departments. This is common in the largest cities.
+The two most populous provinces, Ontario and Quebec, maintain their own provincial forces; theOntario Provincial Police and Sûreté du Québec. The other eight provinces, however, have chosen to contract most or all of their provincial policing responsibilities to the RCMP. Under these contracts the RCMP provides front-line policing in those provinces under the direction of the provincial governments in regard to provincial and municipal law enforcement. When Newfoundland joined the confederation in 1949, the RCMP entered the province and absorbed the then Newfoundland Ranger Force and took over responsibilities in that area. However, the Royal Newfoundland Constabulary has reclaimed some of that province to their jurisdiction. In the three territories, the RCMP serves as the sole territorial police force. Additionally, many municipalities throughout Canada contract the RCMP to serve as their police force. The RCMP consequently provides policing services at the federal, provincial and municipal level.
+The RCMP is responsible for an unusually large breadth of duties. Under their federal mandate, the RCMP provides policing throughout Canada, including Ontario and Quebec (albeit under smaller scales there). Federal operations include: enforcing federal laws including commercial crime, counterfeiting, drug trafficking, border integrity, organized crime and other related matters; providing counter-terrorism and domestic security; providing protection services for the Monarch, Governor General, Prime Minister, their families and residences, and other ministers of the Crown, visiting dignitaries, and diplomatic missions; and participating in various international policing efforts. Under provincial and municipal contracts the RCMP provides front-line policing in all areas outside of Ontario and Quebec that do not have an established local police force. There are detachments located in small villages in the far north, remote First Nations reserves, and rural towns, but also larger cities such as Surrey, British Columbia (population 394,976). In these provinces the RCMP maintains units that provide investigational support to their own detachments, as well as smaller municipal police forces, including the investigation of major crimes such as homicides, forensic identification services, forensic collision investigation, police dog services, emergency response teams, explosives disposal, undercover operations, and others. Under its National Police Services branch the RCMP provides support to all police forces in Canada through the operation of support services such as the Canadian Police Information Centre, the Criminal Intelligence Service Canada, Forensic Science and Identification Services, the Canadian Firearms Program and the Canadian Police College.
+The RCMP Security Service was a specialized political intelligence and counterintelligence branch with national security responsibilities, but was replaced with the Canadian Security Intelligence Service in 1984, following revelations of illegal covert operations relating to the Quebec separatist movement.[8] CSIS is not part of the RCMP, but is its own entity.
+Prime Minister Sir John A. Macdonald first began planning a permanent force to patrol the North-West Territories after the Dominion of Canada purchased the territory from the Hudson's Bay Company. Reports from Army officers surveying the territory led to the recommendation that a mounted force of between 100 to 150 mounted riflemen could maintain law and order. The Prime Minister first announced the force as the North West Mounted Rifles but concern from the United States of America fearing a military build up led the Prime Minister to rename the force theNorth-West Mounted Police (NWMP) when formed in 1873.[9]
+The force was merged with the Dominion Police in 1920 and was renamed as the "Royal Canadian Mounted Police". The new organization was charged with federal law enforcement in all the provinces and territories, and immediately set about establishing its modern role as protector of Canadian national security, as well as assuming responsibility for national counterintelligence.
+As part of its national security and intelligence functions, the RCMP was responsible for infiltrating any ethnic or political groups that were considered to be dangerous to Canada's existing order. This included the Communist Party of Canada, but also a variety of minority cultural and nationalist groups. The force was also deeply involved in immigration matters, and especially deportations of suspected radicals. They were especially concerned with Ukrainian groups, both nationalist and socialist.[10] The Chinese community was also targeted because the perceived link to opium dens. Historians estimate that fully two per cent of the Chinese community was deported between 1923 and 1932, largely under the provisions of the Opium and Narcotics Drugs Act (ONDA).[11]Besides the RCMP's new responsibilities in intelligence, drugs enforcement, and immigration, the force also provided assistance to numerous other federal agencies, such as enforcing theresidential school system for Aboriginal children.
+In 1935, the RCMP, collaborating with the Regina Police Service, crushed the On-to-Ottawa Trek by sparking the Regina Riot, in which one city police officer and one protester were killed. The Trek, which had been organized to call attention to the abysmal conditions in the relief camps, therefore failed to reach Ottawa, but nevertheless had profound political reverberations.
+
+ 
+RCMP patrolling with sled dogs, 1957.
+The RCMP employed special constables to assist with strikebreaking in the interwar period. For a brief period in the late 1930s, a volunteer militia group, the Legion of Frontiersmen were affiliated with the RCMP. Many members of the RCMP belonged to this organization, which was prepared to serve as an auxiliary force. In later years, special constables performed duties such as policing airports and, in certain Canadian provinces, the court houses.
+In 1932, men and vessels of the Preventive Service, National Revenue, were absorbed, creating the RCMP Marine Section. The acquisition of the RCMPschooner St. Roch facilitated the first effective patrol of Canada's Arctic territory. It was the first vessel to navigate the Northwest Passage from west to east (1940–42), the first to navigate the Passage in one season (from Halifax to Vancouver in 1944), the first to sail either way through the Passage in one season, and the first to circumnavigate North America (1950).[12]
+Counterintelligence work was moved from the RCMP's Criminal Investigation Department to a specialized intelligence branch, the RCMP Security Service, in 1939.
+[edit]Post-war
+
+ 
+Plymouth Gran Fury RCMP car, 1980s.
+April 1, 1949, Newfoundland joined in full confederation with Canada and the Newfoundland Ranger Force amalgamated with the RCMP.
+Following the 1945 defection of Soviet cipher clerk, Igor Gouzenko and his revelations of espionage, the RCMP Security Service implemented measures to screen out "subversive" elements from the public sector.[13]
+Queen Elizabeth II approved in Regina, Saskatchewan on July 4, 1973, a new badge for the RCMP, in recognition of which the force presented the sovereign with a tapestry rendering of the new design.[14]
+In the late 1970s, revelations surfaced that the RCMP Security Service force had in the course of their intelligence duties engaged in crimes such as burning a barn and stealing documents from the separatist Parti Québécois, and other abuses. This led to the Royal Commission of Inquiry into Certain Activities of the RCMP, better known as the "McDonald Commission," named for the presiding judge, Mr Justice David Cargill McDonald. The Commission recommended that the force's intelligences duties be removed in favour of the creation of a separate intelligence agency, the Canadian Security Intelligence Service (CSIS).
+[edit]Modern era
+
+ 
+An RCMP Toyota Prius school liaison car in Ottawa.
+
+ 
+Chevrolet Tahoe RCMP SUV in Ottawa.
+
+ 
+Ford Crown Victoria RCMP car in Vancouver.
+In 1993, the Special Emergency Response Team (SERT), were transferred to the Canadian Forces, creating a new unit called Joint Task Force 2(JTF2). JTF2 inherited some equipment and SERT's former training base near Ottawa.
+The Royal Canadian Mounted Police have been involved in training and logistically supporting the Haitian National Police since 1994, a controversial matter in Canada considering allegations of widespread human rights violations on the part of the HNP. Some Canadian activist groups have called for an end to the RCMP training.[15] The RCMP has also provided training overseas in Iraq and other peace-keeping missions.
+The suspected driver of the reconnaissance vehicle involved in the Khobar Towers bombing fled to Canada where he was arrested by the Royal Canadian Mounted Police in the winter of 1997, and was extradited to the United States.
+Main article: Mayerthorpe tragedy
+On March 3, 2005, four RCMP officers were fatally shot during an operation to recover stolen property and investigate a possible marijuana grow-op and serve an arrest warrant just outside of Mayerthrope, Alberta. Shooter James Roszko, 46, then killed himself. It was the single worst multiple killing of RCMP officers since the North-West Rebellion. One of the four Mounties killed had been on the job for only 17 days. The victims were:
+•	Const. Lionide (Leo) Nicholas Johnston, 34 – Mayerthorpe Detachment
+•	Const. Anthony Fitzgerald Orion Gordon, 28 – Whitecourt Town Detachment General Policing and Highway Patrol
+•	Const. Brock Warren Myrol, 29 – Mayerthorpe Detachment
+•	Const. Peter Christopher Schiemann, 25 – Mayerthorpe Detachment General Policing and Highway Patrol[16]
+On October 29, 2005, constable Paul Koester shot and killed Ian Bush while he was in custody. An internal investigation resulted in no action being taken against the constable,[citation needed] and, as a result, a public inquest was commissioned. The inquest recommended that the RCMP refrain from carrying out internal investigations with regard to fatal incidents involving the RCMP and the public.[citation needed]
+Main article: Spiritwood Incident
+On July 7, 2006, two RCMP officers were shot dead near Mildred, Saskatchewan. The killer, Curtis Dagenais, 41, was missing until July 18, when he turned himself in. The victims were:
+•	Const. Robin Cameron, 29: Spiritwood Detachment
+•	Const. Marc Bourdages, 26: Spiritwood Detachment
+Dagenais was subsequently convicted of two counts of murder and one count of attempted murder of a third Mountie who arrived shortly after the initial firefight.
+In 2006, the United States Coast Guard's Ninth District and the RCMP began a program called "Shiprider," in which 12 Mounties from the RCMP detachment at Windsor and 16 Coast Guard boarding officers from stations in Michigan ride in each other's vessels. The intent is to allow for seamless enforcement of the international border.[17]
+On December 6, 2006, RCMP Commissioner Giuliano Zaccardelli resigned one day after informing the House of Commons Standing Committee on Public Safety and National Security that his earlier testimony about the Maher Arar case was inaccurate. The RCMP had improperly given information to the US that resulted in Arar, a Canadian returning to Montreal via the US, being sent to Syria where he was imprisoned for 10 months and tortured into signing a false confession of links to terrorists.[citation needed] Earlier, on September 28, 2006, and before the same Commons committee, Commissioner Zaccardelli had issued a carefully worded public apology to Arar and his family:
+Mr. Arar, I wish to take this opportunity to express publicly to you and to your wife and to your children how truly sorry I am for whatever part the actions of the RCMP may have contributed to the terrible injustices that you experienced and the pain that you and your family endured.[18]
+On January 26, 2007, after months of negotiations between the Canadian government and Arar's Canadian legal counsel, Prime Minister Stephen Harper issued a formal apology "for any role Canadian officials may have played in what happened to Mr. Arar, Monia Mazigh and their family in 2002 and 2003"[citation needed] and announced that Arar would receive $10.5 million settlement for his ordeal and an additional $1 million for legal costs.
+See also: Commission of Inquiry into the Actions of Canadian Officials in Relation to Maher Arar
+On October 6, 2007, Constable Christopher John Worden of Hay River Detachment, Northwest Territories was shot and killed in Hay River while on duty in that community. A nationwide arrest warrant was issued for Emrah Bulatci. Bulatci was apprehended on October 12 in Edmonton, Alberta.
+On October 14, 2007, Robert Dziekański, an emigrant from Poland, died at Vancouver International Airport. Dziekański had failed to clear Customs and after eight hours of loitering became agitated, perhaps because he spoke no English and therefore was unable to ask for assistance. Four RCMP officers were summoned after he threw a computer and a small table. During his arrest, he was Tasered at least twice within 25 seconds of the officers' arrival. After dropping to the floor, he was held down and handcuffed by the officers. Paramedics pronounced him dead at the scene. The incident was videotaped and eventually released to the public, resulting in outrage over the RCMP's handling of the unarmed man. The Dziekański confrontation has provoked considerable debate about the use of Tasers in policing.
+On November 6, 2007, Constable Doug Scott, 20, was killed in Kimmirut, Nunavut when responding to a report of a possible impaired driver. He had been with the service for only six months.[19]
+In 2007, the RCMP was named Newsmaker of the Year by The Canadian Press.[20]
 
-
-	nblocks = (gidsetsize + NGROUPS_PER_BLOCK - 1) / NGROUPS_PER_BLOCK;
-
-	/* Make sure we always allocate at least one indirect block pointer */
-
-	nblocks = nblocks ? : 1;
-
-	group_info = kmalloc(sizeof(*group_info) + nblocks*sizeof(gid_t *), GFP_USER);
-
-	if (!group_info)
-
-		return NULL;
-
-	group_info->ngroups = gidsetsize;
-
-	group_info->nblocks = nblocks;
-
-	atomic_set(&group_info->usage, 1);
-
-
-
-	if (gidsetsize <= NGROUPS_SMALL)
-
-		group_info->blocks[0] = group_info->small_block;
-
-	else {
-
-		for (i = 0; i < nblocks; i++) {
-
-			gid_t *b;
-
-			b = (void *)__get_free_page(GFP_USER);
-
-			if (!b)
-
-				goto out_undo_partial_alloc;
-
-			group_info->blocks[i] = b;
-
-		}
-
-	}
-
-	return group_info;
-
-
-
-out_undo_partial_alloc:
-
-	while (--i >= 0) {
-
-		free_page((unsigned long)group_info->blocks[i]);
-
-	}
-
-	kfree(group_info);
-
-	return NULL;
-
-}
-
-
-
-EXPORT_SYMBOL(groups_alloc);
-
-
-
-void groups_free(struct group_info *group_info)
-
-{
-
-	if (group_info->blocks[0] != group_info->small_block) {
-
-		int i;
-
-		for (i = 0; i < group_info->nblocks; i++)
-
-			free_page((unsigned long)group_info->blocks[i]);
-
-	}
-
-	kfree(group_info);
-
-}
-
-
-
-EXPORT_SYMBOL(groups_free);
-
-
-
-/* export the group_info to a user-space array */
-
-static int groups_to_user(gid_t __user *grouplist,
-
-			  const struct group_info *group_info)
-
-{
-
-	int i;
-
-	unsigned int count = group_info->ngroups;
-
-
-
-	for (i = 0; i < group_info->nblocks; i++) {
-
-		unsigned int cp_count = min(NGROUPS_PER_BLOCK, count);
-
-		unsigned int len = cp_count * sizeof(*grouplist);
-
-
-
-		if (copy_to_user(grouplist, group_info->blocks[i], len))
-
-			return -EFAULT;
-
-
-
-		grouplist += NGROUPS_PER_BLOCK;
-
-		count -= cp_count;
-
-	}
-
-	return 0;
-
-}
-
-
-
-/* fill a group_info from a user-space array - it must be allocated already */
-
-static int groups_from_user(struct group_info *group_info,
-
-    gid_t __user *grouplist)
-
-{
-
-	int i;
-
-	unsigned int count = group_info->ngroups;
-
-
-
-	for (i = 0; i < group_info->nblocks; i++) {
-
-		unsigned int cp_count = min(NGROUPS_PER_BLOCK, count);
-
-		unsigned int len = cp_count * sizeof(*grouplist);
-
-
-
-		if (copy_from_user(group_info->blocks[i], grouplist, len))
-
-			return -EFAULT;
-
-
-
-		grouplist += NGROUPS_PER_BLOCK;
-
-		count -= cp_count;
-
-	}
-
-	return 0;
-
-}
-
-
-
-/* a simple Shell sort */
-
-static void groups_sort(struct group_info *group_info)
-
-{
-
-	int base, max, stride;
-
-	int gidsetsize = group_info->ngroups;
-
-
-
-	for (stride = 1; stride < gidsetsize; stride = 3 * stride + 1)
-
-		; /* nothing */
-
-	stride /= 3;
-
-
-
-	while (stride) {
-
-		max = gidsetsize - stride;
-
-		for (base = 0; base < max; base++) {
-
-			int left = base;
-
-			int right = left + stride;
-
-			gid_t tmp = GROUP_AT(group_info, right);
-
-
-
-			while (left >= 0 && GROUP_AT(group_info, left) > tmp) {
-
-				GROUP_AT(group_info, right) =
-
-				    GROUP_AT(group_info, left);
-
-				right = left;
-
-				left -= stride;
-
-			}
-
-			GROUP_AT(group_info, right) = tmp;
-
-		}
-
-		stride /= 3;
-
-	}
-
-}
-
-
-
-/* a simple bsearch */
-
-int groups_search(const struct group_info *group_info, gid_t grp)
-
-{
-
-	unsigned int left, right;
-
-
-
-	if (!group_info)
-
-		return 0;
-
-
-
-	left = 0;
-
-	right = group_info->ngroups;
-
-	while (left < right) {
-
-		unsigned int mid = left + (right - left)/2;
-
-		if (grp > GROUP_AT(group_info, mid))
-
-			left = mid + 1;
-
-		else if (grp < GROUP_AT(group_info, mid))
-
-			right = mid;
-
-		else
-
-			return 1;
-
-	}
-
-	return 0;
-
-}
-
-
-
-/**
-
- * set_groups - Change a group subscription in a set of credentials
-
- * @new: The newly prepared set of credentials to alter
-
- * @group_info: The group list to install
-
- *
-
- * Validate a group subscription and, if valid, insert it into a set
-
- * of credentials.
-
- */
-
-int set_groups(struct cred *new, struct group_info *group_info)
-
-{
-
-	put_group_info(new->group_info);
-
-	groups_sort(group_info);
-
-	get_group_info(group_info);
-
-	new->group_info = group_info;
-
-	return 0;
-
-}
-
-
-
-EXPORT_SYMBOL(set_groups);
-
-
-
-/**
-
- * set_current_groups - Change current's group subscription
-
- * @group_info: The group list to impose
-
- *
-
- * Validate a group subscription and, if valid, impose it upon current's task
-
- * security record.
-
- */
-
-int set_current_groups(struct group_info *group_info)
-
-{
-
-	struct cred *new;
-
-	int ret;
-
-
-
-	new = prepare_creds();
-
-	if (!new)
-
-		return -ENOMEM;
-
-
-
-	ret = set_groups(new, group_info);
-
-	if (ret < 0) {
-
-		abort_creds(new);
-
-		return ret;
-
-	}
-
-
-
-	return commit_creds(new);
-
-}
-
-
-
-EXPORT_SYMBOL(set_current_groups);
-
-
-
-SYSCALL_DEFINE2(getgroups, int, gidsetsize, gid_t __user *, grouplist)
-
-{
-
-	const struct cred *cred = current_cred();
-
-	int i;
-
-
-
-	if (gidsetsize < 0)
-
-		return -EINVAL;
-
-
-
-	/* no need to grab task_lock here; it cannot change */
-
-	i = cred->group_info->ngroups;
-
-	if (gidsetsize) {
-
-		if (i > gidsetsize) {
-
-			i = -EINVAL;
-
-			goto out;
-
-		}
-
-		if (groups_to_user(grouplist, cred->group_info)) {
-
-			i = -EFAULT;
-
-			goto out;
-
-		}
-
-	}
-
-out:
-
-	return i;
-
-}
-
-
-
-/*
-
- *	SMP: Our groups are copy-on-write. We can set them safely
-
- *	without another task interfering.
-
- */
-
-
-
-SYSCALL_DEFINE2(setgroups, int, gidsetsize, gid_t __user *, grouplist)
-
-{
-
-	struct group_info *group_info;
-
-	int retval;
-
-
-
-	if (!nsown_capable(CAP_SETGID))
-
-		return -EPERM;
-
-	if ((unsigned)gidsetsize > NGROUPS_MAX)
-
-		return -EINVAL;
-
-
-
-	group_info = groups_alloc(gidsetsize);
-
-	if (!group_info)
-
-		return -ENOMEM;
-
-	retval = groups_from_user(group_info, grouplist);
-
-	if (retval) {
-
-		put_group_info(group_info);
-
-		return retval;
-
-	}
-
-
-
-	retval = set_current_groups(group_info);
-
-	put_group_info(group_info);
-
-
-
-	return retval;
-
-}
-
-
-
-/*
-
- * Check whether we're fsgid/egid or in the supplemental group..
-
- */
-
-int in_group_p(gid_t grp)
-
-{
-
-	const struct cred *cred = current_cred();
-
-	int retval = 1;
-
-
-
-	if (grp != cred->fsgid)
-
-		retval = groups_search(cred->group_info, grp);
-
-	return retval;
-
-}
-
-
-
-EXPORT_SYMBOL(in_group_p);
-
-
-
-int in_egroup_p(gid_t grp)
-
-{
-
-	const struct cred *cred = current_cred();
-
-	int retval = 1;
-
-
-
-	if (grp != cred->egid)
-
-		retval = groups_search(cred->group_info, grp);
-
-	return retval;
-
-}
